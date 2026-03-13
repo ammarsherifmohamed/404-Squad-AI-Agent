@@ -16,10 +16,145 @@
 
     <!-- Fav Icon -->
     <link rel="icon" href="assets/images/favIcon-removebg-preview.png">
+
     <title>404 Squad</title>
 </head>
 
 <body>
+
+    <!-- Start Of Project -->
+
+    <!-- ? Nav -->
+    <header class="sticky top-0 backdrop-blur-2xl lg:px-16 px-6 flex flex-wrap items-center lg:py-0 py-2 mt-5">
+        <div class="flex-1 flex justify-between items-center">
+            <a href="#">
+                <img src="assets/images/logo-removebg-preview.png" alt="logo" class="w-40">
+            </a>
+        </div>
+
+        <label for="menu-toggle" class="pointer-cursor lg:hidden block"><svg class="fill-current text-[#31C2B0]"
+                xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                <title>menu</title>
+                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+            </svg></label>
+        <input class="hidden" type="checkbox" id="menu-toggle" />
+
+        <div class="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu">
+            <nav>
+                <ul class="lg:flex items-center justify-between gap-4 text-base text-gray-700 pt-4 lg:pt-0">
+                    <li><a class="lg:p-4 text-white py-3 px-0 block border-b-2 border-transparent hover:text-[#31C2B0] hover:transition-[0.4s]"
+                            href="#">Home</a></li>
+                    <li><a class="lg:p-4 text-white py-3 px-0 block border-b-2 border-transparent hover:text-[#31C2B0] hover:transition-[0.4s]"
+                            href="#">About Us</a></li>
+                    <li><a class="lg:p-4 text-white py-3 px-0 block border-b-2 border-transparent hover:text-[#31C2B0] hover:transition-[0.4s]"
+                            href="#">Documentation</a></li>
+                    <li><a class="lg:p-4 text-white py-3 px-0 block border-b-2 border-transparent hover:text-[#31C2B0] hover:transition-[0.4s] lg:mb-0 mb-2"
+                            href="#">Login</a></li>
+                    <li><a class="lg:p-4 text-white py-3 px-0 block border-b-2 border-transparent hover:text-[#31C2B0] hover:transition-[0.4s] lg:mb-0 mb-2"
+                            href="#">Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header> <!-- ? End Of Nav -->
+
+    <!--? Hero Section -->
+    <section>
+        <!--? Content -->
+        <div class="HeroPageContent h-[100vh] lg:h-[70vh] text-white px-10 lg:px-20 flex flex-col justify-center gap-30">
+            <!--? Titles -->
+            <div class="titles lg:block flex flex-wrap text-4xl lg:text-5xl font-bold ">
+                <h2>Design Production-Ready Software</h2>
+                <h2>Architecture with AI</h2>
+            </div>
+
+            <div class="SubTitle-btns flex flex-col gap-7">
+                <!-- ? Sub Tiles -->
+                <div class="SubTitles text-gray-400">
+                    <p>Generate system architecture, database schemas, API </p>
+                    <p>design and project blueprints in seconds.</p>
+                </div>
+
+                <!-- ? Buttons -->
+                <div class="btns flex flex-col lg:flex-row lg:items-center gap-5">
+                    <button class="bg-linear-to-r from-[#0284C7] to-[#1E3A8A]
+                px-4 py-2 rounded-md outline-1 outline-gray-400 cursor-pointer shadow-blue-400 shadow-2xl">Start
+                        Building</button>
+                    <button class="bg-[#0F172A] px-4 py-2 rounded-md 
+                outline-1 outline-gray-500 cursor-pointer hover:bg-[#31C2B0] hover:transition-[0.6s]">Watch
+                        Demo</button>
+                </div>
+            </div>
+        </div>
+    </section> <!-- ? End of HeroSection -->
+
+
+    <!--? About Us -->
+    <section class="flex flex-col px-10 lg:px-20 mt-40 lg:mt-0">
+
+        <!-- ? App Mokup imag -->
+        <div class="img hidden lg:flex lg:items-center lg:justify-center">
+            <img src="assets/images/App Mockup.png" alt="Chat Image">
+        </div>
+
+        <!--? Cards -->
+        <div class="cards flex flex-col gap-10 lg:flex-row lg:gap-0 justify-around mb-20">
+            <!-- ? Card-1 -->
+            <div class="card bg-[#0F1C33] p-5 text-white flex flex-col items-center 
+            justify-center gap-3 rounded-[30px] py-10 lg:px-15 shadow-2xl shadow-blue-950">
+                <img src="assets/images/AI Architect.png" alt="img-1"
+                    class="outline-1 outline-[#4e5f6e] rounded-[12px]">
+                <h4 class="font-bold text-lg text-center">Architecture</h4>
+                <div class="SubTitles text-center text-gray-400">
+                    <p class="capitalize">Fast services synthesis architecture</p>
+                    <p class="capitalize">automatically.</p>
+                </div>
+            </div>
+
+            <!-- ? Card-2 -->
+            <div class="card bg-[#0F1C33] p-5 text-white flex flex-col items-center 
+            justify-center gap-3 rounded-[30px] py-10 lg:px-15 shadow-2xl shadow-blue-950">
+                <img src="assets/images/database.png" alt="img-2" class="outline-1 outline-[#4e5f6e] 
+                rounded-[12px]">
+                <h4 class="font-bold text-lg text-center">Database Design</h4>
+                <div class="SubTitles text-center text-gray-400">
+                    <p class="capitalize">Create ER Diagrams and SQL schemas</p>
+                    <p class="capitalize">from text prompts.</p>
+                </div>
+            </div>
+
+            <!-- ? Card-3 -->
+            <div class="card bg-[#0F1C33] p-5 text-white flex flex-col items-center 
+            justify-center gap-3 rounded-[30px] py-10 lg:px-15 shadow-2xl shadow-blue-950">
+                <img src="assets/images/API.png" alt="img-3" class="outline-1 outline-[#4e5f6e] 
+                rounded-[12px]">
+                <h4 class="font-bold text-lg text-center">API Builder</h4>
+                <div class="SubTitles text-center text-gray-400">
+                    <p class="capitalize">Generate REST API endpoints, code and</p>
+                    <p class="capitalize">documentation.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ? Button -->
+        <div class="btn text-center mb-30">
+            <button class="bg-gradient-to-r from-[#0284C7] to-[#1E3A8A] text-white
+                px-12 py-2 rounded-4xl outline-1 outline-gray-400 cursor-pointer
+                 shadow-blue-400 shadow-2xl">Start
+                New Project</button>
+        </div>
+    </section> <!-- ? End of About Us -->
+
+    <!--? Footer -->
+    <footer class="border border-b-0 border-r-0 border-l-0 border-t-gray-500 w-[80%] m-auto mb-10">
+        <div class="content flex items-center gap-2 text-gray-400 mt-5">
+            <img src="assets/images/iconify-icon.png" alt="icon">
+            <a class="text-white pe-4 cursor-pointer">Documentation</a>
+            <a class="pe-4 cursor-pointer">About</a>
+            <a class="cursor-pointer"> Team 404 Squad</a>
+        </div>
+
+        <p class="text-gray-500 text-center mt-15">Built by <span class="font-bold">Team 404 Squad</span>, All rights reserved. (2026)</p>
+    </footer> <!-- End Of project -->
 
 </body>
 

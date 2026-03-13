@@ -1,0 +1,14 @@
+#menu-toggle:checked + #menu {
+  display: block; 
+}
+
+body {
+  background-color: #0D1A40;
+  background-image: radial-gradient(
+    circle at 70% 20%,
+    rgba(74, 134, 212, 0.4) 0%,
+    transparent 30%
+  );
+
+  background-repeat: no-repeat;
+}
